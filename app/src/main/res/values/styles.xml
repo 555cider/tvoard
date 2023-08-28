@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:outlineProvider">none</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleTextStyle">
+        <item name="android:textSize">@dimen/actionbar_text_size</item>
+    </style>
+
+    <style name="Keyboard">
+        <item name="itemTextAppearance">?attr/itemTextAppearance</item>
+    </style>
+
+    <style name="KeyboardView" parent="Keyboard">
+        <item name="keyTextSize">@dimen/keyboard_text_size</item>
+    </style>
+
+    <style name="KeyboardViewPopup" parent="Keyboard">
+        <item name="keyTextSize">@dimen/preview_text_size</item>
+    </style>
+</resources>
